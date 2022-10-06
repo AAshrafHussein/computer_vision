@@ -1,6 +1,6 @@
 # Computer Vision with Deep Learning
 
-Hello and welcome to this series of tutorials. This is a six-session boot camp to cover the basic concepts of computer vision and gian hands-on experience working on various CV tasks.
+Hello and welcome to this series of tutorials. This is a six-session boot camp to cover the basic concepts of computer vision and gain hands-on experience working on various CV tasks.
 
 First things first, let's differentiate between computer vision and image processing.
 
@@ -12,7 +12,7 @@ What we will focus on during our journey is Deep Computer Vision Using Convoluti
 
 ## Table of content:
 
-### Session 1:
+### [Session 1](./Session1.ipynb):
 - Image processing: Overview and applications
 - OpenCV Tutorial
 - Task 1: Perspective, Affine Transforms and Thresholding
@@ -43,6 +43,23 @@ What we will focus on during our journey is Deep Computer Vision Using Convoluti
 ## Assignments:
 
 ### Assignment 1:
+
+Do you know the famous camscanner app? You can use it as an image scanner getting high quality images with the correct prespective./
+
+<img src="./images/scan.jpg" hight= "300" width= "300"/>
+
+
+You are asked to do the following operations over the `scan.jpg` image ablove:
+
+    - Get the correct prespective
+    - Convert it to binary (black and white) using thresholding on grayscaled image
+
+For the first task, you can first the utilize the following information to use `cv2.getPerspectiveTransform` and `cv2.warpPerspective`
+
+Cordinates of the 4 corners of the original image --> points_A = np.float32([[320,15], [700,215], [85,610], [530,780]]) *`can you get them interactively by mouse clicks?`*
+
+Cordinates of the 4 corners of the desired output using a ratio of an A4 Paper 1 : 1.41 --> points_B = np.float32([[0,0], [420,0], [0,594], [420,594]])
+
 ### Assignment 2:
 ### Assignment 3:
 ### Assignment 4:
