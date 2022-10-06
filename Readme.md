@@ -49,14 +49,13 @@ Do you know the famous camscanner app? You can use it as an image scanner gettin
 <img src="./images/scan.jpg" hight= "300" width= "300"/>
 
 
-You are asked to do the following operations over the `scan.jpg` image ablove:
-
-    - Get the correct prespective
-    - Convert it to binary (black and white) using thresholding on grayscaled image
+You are asked to do the following operations over the `scan.jpg` image above:
+- Get the correct prespective
+- Convert it to binary (black and white) using thresholding on grayscaled image
 
 For the first task, you can first the utilize the following information to use `cv2.getPerspectiveTransform` and `cv2.warpPerspective`
 
-Cordinates of the 4 corners of the original image --> points_A = np.float32([[320,15], [700,215], [85,610], [530,780]]) *`can you get them interactively by mouse clicks?`*
+Cordinates of the 4 corners of the original image --> points_A = np.float32([[320,15], [700,215], [85,610], [530,780]]) *can you get them interactively by mouse clicks?*
 
 Cordinates of the 4 corners of the desired output using a ratio of an A4 Paper 1 : 1.41 --> points_B = np.float32([[0,0], [420,0], [0,594], [420,594]])
 
