@@ -16,11 +16,12 @@ What we will focus on during our journey is Deep Computer Vision Using Convoluti
 - Image processing: Overview and applications
 - OpenCV Tutorial
 - Task 1: Perspective, Affine Transforms and Thresholding
-### Session 2:
+### [Session 2](./Session2.ipynb):
+- Image processing: Convolution, Cross Correlation and Fitlers
 - Convlution Neural Network: Motive and overview
 - Filters and pooling
 - CNN Tutorial
-- Task 2:
+- Task 2: Improving model performance on CIFAR 10
 ### Session 3:
 - Image data preprocessing
 - Padding
