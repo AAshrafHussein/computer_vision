@@ -22,12 +22,12 @@ What we will focus on during our journey is Deep Computer Vision Using Convoluti
 - Filters and pooling
 - CNN Tutorial
 - Task 2: Improving model performance on CIFAR 10
-### Session 3:
-- Image data preprocessing
-- Padding
-- Data augmentation
-- Interpretability 
-- Task 3:
+### [Session 3](./Session3.ipynb):
+- Convolution Neural Network: key points Summary and model development
+- Image data preprocessing & Data augmentation
+- CIFAR 10 dataset baseline model with VGG block
+- Regularize deep complex models (Dropout, Regularization, Data Augmentation) 
+- Task 3: Which techniques combination with best hyperparameters approaches 90 % test accuracy ?
 ### Session 4:
 - CNN architectures
 - ResNet-34 tutorial
