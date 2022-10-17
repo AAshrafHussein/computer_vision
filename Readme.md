@@ -29,10 +29,10 @@ What we will focus on during our journey is Deep Computer Vision Using Convoluti
 - Regularize deep complex models (Dropout, Regularization, Data Augmentation) 
 - Task 3: Which techniques combination with best hyperparameters approaches 90 % test accuracy ?
 ### Session 4:
-- CNN architectures
-- ResNet-34 tutorial
+- CNN Literature Architectures
+- ResNet-34 Implementation
 - Transfer learning
-- Task 4:
+- Task 4: How can transfer learning boost the accuracy over the CIFAR 10 dataset?
 ### Session 5:
 - Detection, recognition, identification 
 - Object detection
