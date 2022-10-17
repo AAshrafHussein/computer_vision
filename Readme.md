@@ -28,7 +28,7 @@ What we will focus on during our journey is Deep Computer Vision Using Convoluti
 - CIFAR 10 dataset baseline model with VGG block
 - Regularize deep complex models (Dropout, Regularization, Data Augmentation) 
 - Task 3: Which techniques combination with best hyperparameters approaches 90 % test accuracy ?
-### Session 4:
+### [Session 4](./Session4.ipynb):
 - CNN Literature Architectures
 - ResNet-34 Implementation
 - Transfer learning
