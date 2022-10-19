@@ -33,11 +33,13 @@ What we will focus on during our journey is Deep Computer Vision Using Convoluti
 - ResNet-34 Implementation
 - Transfer learning
 - Task 4: How can transfer learning boost the accuracy over the CIFAR 10 dataset?
-### Session 5:
-- Detection, recognition, identification 
-- Object detection
-- Semantic segmentation
-- Task 5:
+### [Session 5](./Session5.ipynb):
+- CNN Interpretability (filter and feature maps visualization)
+- Tensorflow data API
+<!-- - Detection, recognition, identification  -->
+<!-- - Object detection -->
+<!-- - Semantic segmentation -->
+- Task 5: Continue working with CIFAR 10 model, how can we visualize internal model feature maps? 
 ### Session 6:
 - Capstone Project
 
