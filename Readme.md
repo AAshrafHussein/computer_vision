@@ -35,42 +35,20 @@ What we will focus on during our journey is Deep Computer Vision Using Convoluti
 - Task 4: How can transfer learning boost the accuracy over the CIFAR 10 dataset?
 ### [Session 5](./Session5.ipynb):
 - CNN Interpretability (filter and feature maps visualization)
-- Tensorflow data API
-<!-- - Detection, recognition, identification  -->
-<!-- - Object detection -->
-<!-- - Semantic segmentation -->
+- Tensorflow data API for dealing with image data
 - Task 5: Continue working with CIFAR 10 model, how can we visualize internal model feature maps? 
-### Session 6:
-- Capstone Project
+### [Session 6](./Session6.ipynb):
+- Classification and Localization
+- Fully Convolutional Networks (FCNs)
+- Object Detection
+- Yolo: Overview & Demo
 
-## Assignments:
+## Assignment:
 
-### Assignment 1:
-
-Do you know the famous camscanner app? You can use it as an image scanner getting high quality images with the correct prespective./
-
-<img src="./images/scan.jpg" hight= "300" width= "300"/>
-
-
-You are asked to do the following operations over the `scan.jpg` image above:
-- Get the correct prespective
-- Convert it to binary (black and white) using thresholding on grayscaled image
-
-For the first task, you can first the utilize the following information to use `cv2.getPerspectiveTransform` and `cv2.warpPerspective`
-
-Cordinates of the 4 corners of the original image --> points_A = np.float32([[320,15], [700,215], [85,610], [530,780]]) *can you get them interactively by mouse clicks?*
-
-Cordinates of the 4 corners of the desired output using a ratio of an A4 Paper 1 : 1.41 --> points_B = np.float32([[0,0], [420,0], [0,594], [420,594]])
-
-### Assignment 2:
-### Assignment 3:
-### Assignment 4:
-### Assignment 5:
-### Assignment 6:
+Cat and dog classification photos. The dataset can be found [here](https://www.kaggle.com/c/dogs-vs-cats/data). You are required to start with a baseline model, trying to introduce some improvements to enhance the model performance, then using transfer learning to boost it up to 90% accuracy score.
 
 ## Feedback
 
-### Pace, organization, sufficient material
-### LOs
-### Instructor
+It's a pleasure to receive your feedback via [this google form.](https://forms.gle/YCcrFs4vDgt8sxj26)
 
+---
